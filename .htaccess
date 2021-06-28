@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteBase /gimg/
+
+RewriteRule ^(.*)/(.*)$ ?size=$2&type=$1 [L]
+
